@@ -1,4 +1,4 @@
-<h1 align="center">Média da Somatória de Vetor </h1>
+<h1 align="center">Média da Somatória do Vetor </h1>
 
 ![GitHub](https://img.shields.io/github/license/viniciuslemos93/VinisBank-Carteira-Digital)
 
@@ -15,7 +15,6 @@ Escreva um programa que leia um vetor de 10 posições de inteiros e apresente o
 - Variáveis e Constantes
 - Estruturas de repetições
 - Funções com retorno e passagem por referência
-- Estruturas - Struct
 
 <hr>
 
