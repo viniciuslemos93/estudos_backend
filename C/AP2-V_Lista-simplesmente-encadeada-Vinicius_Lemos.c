@@ -3,8 +3,13 @@
 #include <locale.h>
 #include <stdlib.h>
 #define TAM 30
-/* EX 1. A agência de pesquisas “IBOPI” com lista simplesmente encadeada. */
- 
+/*A agência de pesquisas “IBOPI” precisa de um programa para cadastrar os
+dados dos atletas de vôlei do Rio Grande do Sul. As informações a serem
+armazenadas, para cada atleta são: CPF, nome do clube em que joga, nome
+do atleta, idade, altura e peso. Além de cadastrar os atletas, o programa
+deverá oferecer a listagem de todos os dados dos atletas agrupados por
+clube. lista simplesmente encadeada.*/
+
 void topoMenu () {
 	printf(" \n \t ------- IBOPI [Agência de Pesquisas] ------- \n ");
 	printf("\n[1] - Inserir Nó na Lista");
