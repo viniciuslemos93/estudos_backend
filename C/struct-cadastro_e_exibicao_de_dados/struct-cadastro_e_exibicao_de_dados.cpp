@@ -2,7 +2,7 @@
 #include<string.h>
 #include <locale.h>
 #include <stdlib.h>
-#define TAM 2
+#define TAM 3
 /*1. A agência de pesquisas “IBOPI” precisa de um programa para cadastrar os
 dados dos atletas de vôlei do Rio Grande do Sul. As informações a serem
 armazenadas, para cada atleta são: CPF, nome do clube em que joga, nome
@@ -16,9 +16,7 @@ void topoMenu () {
 }
 
 int main (void) {
-	setlocale(LC_ALL, "Portuguese");
-	int clubeIgual;
-	
+	setlocale(LC_ALL, "Portuguese");		
 	struct DadosAtleta {
 	char nome[25];
 	int idade;
@@ -29,7 +27,7 @@ int main (void) {
 	};
 	
 	struct DadosAtleta atleta[TAM];	
-	
+	//Laço de repetição que repetirá conforme valor definido na CONSTANTE - será a quantidade de cadastros de cada estrutura.
 	for (int i = 0; i < TAM; i++) {
 		topoMenu();
 		printf("\n\n *** Cadastro *** \n Digite o nome do Atleta: ");
@@ -61,6 +59,7 @@ int main (void) {
 	
 	topoMenu();
 	printf(" \n ****** EXIBINDO ATLETAS ****** \n \n");
+	//Laço de repetição exibindo todas as estruturas cadastradas.
 	for (int i = 0; i < TAM; i++) {		
 		printf("Atleta: %s \n", atleta[i].nome);
 		printf("Idade: %i \n", atleta[i].idade);
