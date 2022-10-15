@@ -2,7 +2,7 @@
 #include<string.h>
 #include <locale.h>
 #include <stdlib.h>
-#define TAM 2
+#define TAM 3
 /*1. A agência de pesquisas “IBOPI” precisa de um programa para cadastrar os
 dados dos atletas de vôlei do Rio Grande do Sul. As informações a serem
 armazenadas, para cada atleta são: CPF, nome do clube em que joga, nome
@@ -65,8 +65,8 @@ int main (void) {
 		printf("Idade: %i \n", atleta[i].idade);
 		printf("CPF: %s \n", atleta[i].cpf);
 		printf("Clube: %s \n", atleta[i].clube);
-		printf("Altura: %.2f \n", atleta[i].altura);
-		printf("Peso: %.2f \n", atleta[i].peso);
+		printf("Altura: %.2fm \n", atleta[i].altura);
+		printf("Peso: %.2fKg \n", atleta[i].peso);
 		printf("-----------------");
 	}
 	
