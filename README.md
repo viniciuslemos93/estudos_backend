@@ -4,5 +4,7 @@
 
 Repositório dedicado a práticas e estudos relacionados a Backend.
 
-Os diretórios estão divididos em linguagens de programação.
-E cada projeto possui seu respectivo Readme.
+<h2>Explicações da Estrutura dos Diretórios: </h2>
+
+- Os diretórios estão divididos em cada linguagem de programação.
+- Cada projeto possui seu respectivo Readme.
