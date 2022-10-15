@@ -3,6 +3,7 @@
 #include <locale.h>
 #include <stdlib.h>
 #define TAM 30
+<<<<<<< HEAD
 /*A agÍncia de pesquisas ìIBOPIî precisa de um programa para cadastrar os
 dados dos atletas de vÙlei do Rio Grande do Sul. As informaÁıes a serem
 armazenadas, para cada atleta s„o: CPF, nome do clube em que joga, nome
@@ -10,9 +11,18 @@ do atleta, idade, altura e peso. AlÈm de cadastrar os atletas, o programa
 dever· oferecer a listagem de todos os dados dos atletas agrupados por
 clube. lista simplesmente encadeada.*/
 
+=======
+/*A ag√™ncia de pesquisas ‚ÄúIBOPI‚Äù precisa de um programa para cadastrar os
+dados dos atletas de v√¥lei do Rio Grande do Sul. As informa√ß√µes a serem
+armazenadas, para cada atleta s√£o: CPF, nome do clube em que joga, nome
+do atleta, idade, altura e peso. Al√©m de cadastrar os atletas, o programa
+dever√° oferecer a listagem de todos os dados dos atletas agrupados por
+clube. Usar lista simplesmente encadeada.*/
+ 
+>>>>>>> d7b7d281311c6395dfa0e9146d52c9b10971c8df
 void topoMenu () {
-	printf(" \n \t ------- IBOPI [AgÍncia de Pesquisas] ------- \n ");
-	printf("\n[1] - Inserir NÛ na Lista");
+	printf(" \n \t ------- IBOPI [Ag√™ncia de Pesquisas] ------- \n ");
+	printf("\n[1] - Inserir N√≥ na Lista");
 	printf("\n[2] - Pesquisar Idade na Lista");
 	printf("\n[3] - Mostrar Lista");
 	printf("\n[4] - Encerrar");
@@ -29,7 +39,7 @@ struct DadosAtleta *prox;
 };
 typedef struct DadosAtleta No;
 
-// Primeiro NÛ da lista.
+// Primeiro N√≥ da lista.
 typedef struct {
 	No *inicio;
 }Lista;
@@ -53,7 +63,7 @@ void imprimirLista (Lista *l) {
 		}
 	}
 }
-//INSERIR N” NA LISTA
+//INSERIR N√ì NA LISTA
 void inserirNo (Lista *l) {
 	No *aux, *novoNo;
 	aux = l->inicio;
@@ -91,7 +101,7 @@ void inserirNo (Lista *l) {
 	
 	if (aux == NULL) {//Lista Vazia
 		l->inicio = novoNo;
-	}else{// Lista n„o vazia
+	}else{// Lista n√£o vazia
 		while (aux->prox != NULL) {
 			aux = aux->prox;
 		}
@@ -99,13 +109,13 @@ void inserirNo (Lista *l) {
 	}
 }
 
-//BUSCAR N” NA LISTA
+//BUSCAR N√ì NA LISTA
 void buscarNo(Lista *l) {
 	No *aux;
 	aux = l->inicio;
 	int valorBuscado, encontrou = 0;
 	if (aux == NULL) {
-		printf("Lista Vazia, valor n„o encontrado\n");
+		printf("Lista Vazia, valor n√£o encontrado\n");
 	}else {
 		printf("\n\nDigite a idade para buscar: ");
 		scanf("%i", &valorBuscado);
@@ -120,15 +130,15 @@ void buscarNo(Lista *l) {
 			}
 		}
 		if (encontrou == 0) {
-			printf("\nValor n„o encontrado na lista! \n");
+			printf("\nValor n√£o encontrado na lista! \n");
 		}
 	}
 }
 
-//REMOVER N” NA LISTA
+//REMOVER N√ì NA LISTA
 void removerNo (Lista *l) {
 	No *aux, *ant;
-	int flgEncontrou = 0; //Flag para validar se possui ou n„o o valor que digitou para Remover.
+	int flgEncontrou = 0; //Flag para validar se possui ou n√£o o valor que digitou para Remover.
 	aux = ant = l->inicio;
 	if (aux == NULL) {
 		printf("\nLISTA VAZIA");
@@ -140,7 +150,7 @@ void removerNo (Lista *l) {
 		while (aux != NULL) {			
 			if (valorRemover == aux->idade) {
 				flgEncontrou = 1;
-				if (aux == l->inicio) {//Testando se est· no Primeiro NÛ.
+				if (aux == l->inicio) {//Testando se est√° no Primeiro N√≥.
 					l->inicio = aux->prox;
 					free(aux);
 					break;
@@ -155,7 +165,7 @@ void removerNo (Lista *l) {
 			}
 		}
 		if (flgEncontrou == 0) {
-			printf("\n VALOR N√O ENCONTRADO");
+			printf("\n VALOR N√ÉO ENCONTRADO");
 		}
 	}
 }
@@ -177,7 +187,7 @@ void main(){
 	
 	switch (opMenu)
 	{
-   case 1://Inserir NÛ na Lista
+   case 1://Inserir N√≥ na Lista
      inserirNo(&l);
    break;
 
@@ -190,7 +200,7 @@ void main(){
    break;
 
    default:
-     printf("\nOpÁ„o inv·lida\n");
+     printf("\nOp√ß√£o inv√°lida\n");
 	}
 	}while(opMenu != 4);
 }
