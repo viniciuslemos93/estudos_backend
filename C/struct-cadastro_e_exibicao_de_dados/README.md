@@ -1,4 +1,4 @@
-<h1 align="center">Média da Somatória do Vetor </h1>
+<h1 align="center">Cadastro e Exibição de uma Estrutura</h1>
 
 ![GitHub](https://img.shields.io/github/license/viniciuslemos93/VinisBank-Carteira-Digital)
 
