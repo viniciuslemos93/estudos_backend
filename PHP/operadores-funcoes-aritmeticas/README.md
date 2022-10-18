@@ -19,9 +19,9 @@ Projeto de estudo para dar os primeiros passos com PHP.
 <h2 align="center">Tecnologias Usadas</h2>
 <div align="center">
      <div style="display: inline_block margin-left:auto margin-rigth:auto"><br>       
-       <img align="lef" alt="ícone do logotipo do PHP" height="40 widht="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
-       <img align="lef" alt="ícone do logotipo do HTML" height="40 widht="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
-       <img align="lef" alt="ícone do logotipo do CSS" height="40 widht="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
+       <img align="center" alt="ícone do logotipo do PHP" height="40 widht="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+       <img align="center" alt="ícone do logotipo do HTML" height="40 widht="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
+       <img align="center" alt="ícone do logotipo do CSS" height="40 widht="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
     </div>
 </div>
 
