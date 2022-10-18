@@ -15,7 +15,7 @@ Projeto de estudo para dar os primeiros passos com PHP.
 <h1 align="center">Print do Resultado</h1>
 <div align="center">
 <img align="center" alt="Print do resultado das operações aritméticas em PHP" height="400" width="500" src="print-resultado.PNG">
-</div
+</div>
 <h2 align="center">Tecnologias Usadas</h2>
 <div align="center">
      <div style="display: inline_block margin-left:auto margin-rigth:auto"><br>       
