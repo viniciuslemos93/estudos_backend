@@ -1,6 +1,6 @@
 <h1 align="center">Praticando Funções Aritméticas em PHP</h1>
 
-![GitHub](https://img.shields.io/github/license/viniciuslemos93/estudos_backend/)
+![GitHub](https://img.shields.io/github/license/viniciuslemos93/estudos_backend)
 
 Projeto de estudo para dar os primeiros passos com PHP.
 
