@@ -1,12 +1,12 @@
-<h1 align="center">Praticando Funções Aritméticas em PHP</h1>
+<h1 align="center">Praticando Arrays em PHP</h1>
 
 ![GitHub](https://img.shields.io/github/license/viniciuslemos93/estudos_backend)
 
-Projeto de estudo para dar os primeiros passos com PHP.
+Projeto de estudo para dar os primeiros passos com PHP, utilizando os Arrays.
 
 <hr>
 
-- Funções artirméticas utilizadas: abs, pow, sqrt, round, number_format
+- Praticando Arrays e Laços de repetições
 
 <hr>
 <h3> Projeto desenvolvido no dia 18/10/2022. </h3>
