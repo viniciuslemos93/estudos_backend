@@ -1,6 +1,6 @@
 <h1 align="center">Cadastro e Exibição de uma Estrutura</h1>
 
-![GitHub](https://img.shields.io/github/license/viniciuslemos93/VinisBank-Carteira-Digital)
+![GitHub](https://img.shields.io/github/license/viniciuslemos93/estudos_backend)
 
 Projeto de estudo para praticar os conceitos aprendidos durante a disciplina de Algoritmos e Lógica de Programação da faculdade.
 <hr>
