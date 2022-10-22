@@ -7,6 +7,7 @@ int main (void) {
 	gets(frase);
 	
 	printf ("Imprimindo caracter a caracter: ");
+	//For que varre todo o array, exibindo caracterer por caracter após o espeço.
 	for (ptr = frase; *ptr != '\0'; ptr++) {
 		printf (" %c", *ptr);
 	}	
