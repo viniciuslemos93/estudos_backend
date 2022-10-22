@@ -5,6 +5,8 @@
 Projeto de estudo para praticar o conceito de ponteiros da disciplina Algoritmos e Lógica de Programação da faculdade.
 <hr>
 
+<h2> O sistema espera uma palavra ou frase do usuário, e as exibe caracter por caracter.</h2>
+
 <h2> Neste projeto pratiquei os seguintes conceitos de programação: </h2>
 
 - Estruturas de repetições
