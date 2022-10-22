@@ -2,9 +2,9 @@
 
 ![GitHub](https://img.shields.io/github/license/viniciuslemos93/estudos_backend)
 
-Repositório dedicado a práticas e estudos relacionados a Backend.
+Repositório dedicado a práticas e estudos relacionados a Lógica, Algoritmos e Backend.
 
-<h2>Explicações da Estrutura dos Diretórios: </h2>
+<hr>
 
-- Os diretórios estão divididos em cada linguagem de programação.
-- Cada projeto possui seu respectivo Readme.
+<h2>Os diretórios estão divididos em cada linguagem de programação.</h2>
+<h2>Cada projeto possui seu respectivo Readme..</h2>
