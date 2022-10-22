@@ -1,4 +1,4 @@
-<h1 align="center">Estrutura de Dados - Lista Simplesmente Encadeada</h1>
+<h1 align="center">Ponteiros em C</h1>
 
 ![GitHub](https://img.shields.io/github/license/viniciuslemos93/estudos_backend)
 
