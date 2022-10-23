@@ -10,18 +10,15 @@ void inverterPalavra (char *str) {
 	
 	for (i = strlen (str) - 1; i >= 0; i--) {
 		palavraInvertida [j] = str [i];
-		j++;
-		
-		//printf ("%c", str [i]);
+		j++;		
 	}
 	palavraInvertida [j] = '\0';
-	printf ("%s", palavraInvertida);
-	
-	
+	printf ("%s", palavraInvertida);	
 }
-
 int main (void) {
 	char palavra[TAM];
+	
+	printf ("--- INVERSOR DE PALAVRAS ---\n");
 	
 	printf ("Escreva uma palavra: ");
 	gets(palavra);	
