@@ -12,7 +12,7 @@ void substituiZerosDaString (char *str) {
 			str[i] = 'X';
 		}		
 		i++;
-	}	
+	}
 }
 int main (void) {
 	char string[TAM];
