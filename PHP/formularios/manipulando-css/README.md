@@ -16,7 +16,7 @@ Projeto de estudo para capturar dados de formulários HTML, durante o curso de P
 
 <h1 align="center">Gif do Resultado</h1>
 <div align="center">
-<img align="center" alt="Print do resultado das operações aritméticas em PHP" height="400" width="500" src="gif-projeto-manipulando-css.gif">
+<img align="center" alt="Print do resultado das operações aritméticas em PHP" height="400" width="500" src="gif-projeto-manipula-css.gif">
 </div>
 <h2 align="center">Tecnologias Usadas</h2>
 <div align="center">
