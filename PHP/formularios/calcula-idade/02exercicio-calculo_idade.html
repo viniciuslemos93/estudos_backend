@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários em PHP</title>
+
+    <style>
+        * {
+            margin: 5px;
+        }
+        body {
+            background: rgba(57, 139, 216, 0.63);
+            font: normal 14pt Arial;
+            text-align: center;
+        }
+        h1 {
+            color: white;
+        }
+        .container {
+            border: 5px solid white;
+            width: 250px;
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+        }
+        fieldset {
+            width: 150px;
+            margin: auto;
+        }
+        .btn-enviar {            
+            font-size: 1.2em;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo de Idade - Parâmetros via GET</h1>
+        <form action="02idade.php" method="get">
+            Nome: <input type="text" name="nome"> <br>
+            Ano de Nascimento: <input type="number" name="ano"> <br>
+            <fieldset><legend>Sexo</legend><!-- value é o que é mostrado quando o PHP vai exibir-->
+                <input type="radio" name="sexo" id="masc" value="homem" checked> 
+                <label for="masc">Masculino</label><br>
+                <input type="radio" name="sexo" id="fem" value="mulher">
+                <label for="fem">Feminino</label>
+            </fieldset>
+            <input type="submit" value="Enviar" class="btn-enviar">
+            
+        </form>
+
+    </div>
+</body>
+</html>
