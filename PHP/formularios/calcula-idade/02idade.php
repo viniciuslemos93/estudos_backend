@@ -1,20 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <style>
-        body {
-            background: rgba(57, 139, 216, 0.63);
-            font-size: 1.3em;
-            text-align: center;
-        }
-        .container {
-            border: 5px solid white;
-            
-            text-align: center;
-            font-size: 1.5em;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="layout.css">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
