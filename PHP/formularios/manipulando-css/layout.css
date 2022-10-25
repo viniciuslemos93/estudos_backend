@@ -1,0 +1,15 @@
+* {
+    margin: 10px 3px;
+}
+body {
+    background: rgba(142, 42, 209, 0.411);
+    font: normal 14pt Arial;
+    text-align: center;
+}
+.container {
+    border: 5px solid white;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
