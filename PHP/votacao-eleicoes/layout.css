@@ -1,0 +1,21 @@
+* {
+    margin: 10px 3px;
+}
+body {
+    background: rgba(42, 148, 209, 0.411);
+    
+    text-align: center;
+}
+.container {
+    border: 5px solid white;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+legend {
+    font-size: 16px;
+}
+fieldset {
+    font-size: 1.3em;
+}

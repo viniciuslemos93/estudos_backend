@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários em PHP</title>
+    <link rel="stylesheet" href="layout.css"> <!--Importando apenas a estrutura de layout-->
+    <style>        
+        h1 {
+            color: white;
+        }                
+        .btn-verificar {            
+            font-size: 1.2em;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Votação - Eleições</h1>
+        <fieldset><legend>Sistema de validação de obrigatoriedade para Votar</legend>
+        <form action="valida-idade.php" method="get">            
+            Nome: <input type="text" placeholder="Digite seu nome" name="nome"> <br>
+            Ano de Nascimento: <input type="number" placeholder="4 dígitos" name="ano"> <br>
+            <input type="submit" value="Verificar Idade" class="btn-verificar">
+            
+        </form>
+    </fieldset>
+
+    </div>
+</body>
+</html>
