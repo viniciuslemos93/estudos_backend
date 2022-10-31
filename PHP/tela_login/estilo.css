@@ -1,0 +1,19 @@
+* {
+    margin: 10px 3px;
+    font-size: 1.1em;
+}
+body {
+    background-color: coral;
+    text-align: center;
+}
+h1 {    
+    font-size: 1.5em;
+}                
+.container {    
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.535);
+}
